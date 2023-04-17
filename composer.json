@@ -1,0 +1,24 @@
+{
+    "name": "freeaqingme/precise-money-poc",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Freeaqingme\\PreciseMoneyPoc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dolf Schimmel",
+            "email": "dolf@dolfschimmel.nl"
+        }
+    ],
+    "require": {
+        "moneyphp/money": "dev-precise-money"
+    },
+    "config": {
+        "platform": {
+            "php": "7.4",
+            "ext-bcmath": "7.4"
+        }
+    }
+}
